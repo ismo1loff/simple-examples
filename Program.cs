@@ -16,8 +16,10 @@
      {
         string nums = Console.ReadLine();
         int n = Convert.ToInt32(nums);
+
         Fibonachi(n);
-     }break;
+
+     }    break;
 
         case "2":
     {
@@ -25,7 +27,7 @@
         Console.WriteLine(IsPrime(n));
 
         IsPrime(n);
-     
+
     }break;
 
 
